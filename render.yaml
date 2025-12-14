@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: mafia-bot
+    name: Mafia123
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python mafia_bot.py

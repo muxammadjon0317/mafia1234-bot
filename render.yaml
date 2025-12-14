@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: mafia-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python mafia_bot.py
+    envVars:
+      - key:8216533427:AAEkuTATPEXPJPlfrhQ6n3NAINt5Mwpzu5c
+        sync: false
+      - key: 7935854444
+        sync: false
+      - key: mafiaganneBot
+        sync: false
+      - key: RENDER
+        value: true
